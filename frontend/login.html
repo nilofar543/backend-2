@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Register</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">🛒 My Shop</a>
+    <nav id="nav"></nav>
+  </header>
+
+  <div class="box">
+    <h2 id="title">Login</h2>
+    <input type="text" id="name" placeholder="Name" style="display:none">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password (min 6 characters)">
+    <button class="btn" id="submit">Login</button>
+    <p class="msg" id="msg"></p>
+    <p style="margin-top:14px;font-size:14px">
+      <span id="switch-text">New here?</span>
+      <a href="#" id="switch" style="color:#2563eb">Create an account</a>
+    </p>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

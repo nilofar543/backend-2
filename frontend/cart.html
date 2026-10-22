@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">🛒 My Shop</a>
+    <nav id="nav"></nav>
+  </header>
+
+  <div class="container">
+    <h2 style="margin-bottom:16px">Your Cart</h2>
+    <div id="cart-area"></div>
+
+    <div class="box" id="checkout" style="display:none; margin-left:0; max-width:100%">
+      <h2>Checkout</h2>
+      <textarea id="address" rows="3" placeholder="Delivery address"></textarea>
+      <button class="btn" id="place-order">Place Order</button>
+      <p class="msg" id="msg"></p>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

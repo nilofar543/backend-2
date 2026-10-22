@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">🛒 My Shop</a>
+    <nav id="nav"></nav>
+  </header>
+
+  <div class="container">
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="Search products...">
+      <select id="category">
+        <option value="">All categories</option>
+        <option>Electronics</option>
+        <option>Fashion</option>
+        <option>Home</option>
+      </select>
+    </div>
+    <div class="grid" id="products"></div>
+    <p class="msg" id="status"></p>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
